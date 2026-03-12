@@ -3430,7 +3430,7 @@ input:focus {
   padding-top: 40px;
   display: block;
   text-align: center;
-  background-color: var(--title);
+  background-color: var(--border);
 }
 .global-menu-wrapper .mobile-logo svg {
   max-width: 185px;
