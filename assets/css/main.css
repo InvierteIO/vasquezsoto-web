@@ -43,12 +43,12 @@ Description: Elecfix - Electrical Services HtmlTemplate
   --body: #ffffff;
   --black: #000;
   --white: #fff;
-  --theme: #FFB966;
-  --green: #025142;
+  --theme: #F9B234;
+  --green: #066B4B;
   --title: #101010;
-  --text: #515151;
-  --bg: #F9F5F2;
-  --theme2: #0F183E;
+  --text: #5F5F5F;
+  --bg: #FCFCFC;
+  --theme2: #1A202C;
   --border: #EEF1F1;
   --gray1: #D1D1D1;
   --orange1:#E8E109;
@@ -3430,7 +3430,7 @@ input:focus {
   padding-top: 40px;
   display: block;
   text-align: center;
-  background-color: var(--border);
+  background-color: var(--title);
 }
 .global-menu-wrapper .mobile-logo svg {
   max-width: 185px;
@@ -3490,7 +3490,6 @@ input:focus {
   text-align: left;
   position: relative;
   z-index: 41;
-  /***scroll-bar***/
 }
 .global-mobile-menu ul {
   margin: 0;
@@ -3615,6 +3614,9 @@ input:focus {
 }
 .global-mobile-menu > ul > li:last-child {
   border-bottom: none;
+}
+.global-mobile-menu {
+  /***scroll-bar***/
 }
 .global-mobile-menu::-webkit-scrollbar {
   width: 5px;
@@ -6515,7 +6517,7 @@ input:focus {
   left: 0;
   bottom: -170px;
   height: 390px;
-  width: 1587px;
+  width: 1757px;
   content: "";
   background-color: var(--theme);
   z-index: -1;
@@ -9118,4 +9120,6 @@ input:focus {
 }
 .footer2-bottom-item__list li a:hover {
   color: var(--theme) !important;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
