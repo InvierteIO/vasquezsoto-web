@@ -29,52 +29,9 @@
     <!--===== Main.css =====-->
     <link rel="stylesheet" href="assets/css/main.css">
     <!--===== WhatsApp Float Button =====-->
-    <style>
-        /* Mismo tamaño y posición base que .back-to-top (50x50px, right:30px)
-           Se separa colocándolo 20px por encima del back-to-top:
-           back-to-top ocupa bottom:30px + 50px altura = 80px → WhatsApp: bottom: 100px */
-        .whatsapp-float {
-            position: fixed;
-            bottom: 100px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
-            background-color: #25D366;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            text-decoration: none;
-            transition: all 0.4s ease-in-out;
-        }
-        .whatsapp-float:hover {
-            background-color: #1ebe5d;
-        }
-        .whatsapp-float i {
-            color: #fff;
-            font-size: 22px;
-            line-height: 1;
-        }
-        .whatsapp-float .wa-tooltip {
-            position: absolute;
-            right: 60px;
-            background: #fff;
-            color: #333;
-            padding: 5px 10px;
-            border-radius: 6px;
-            white-space: nowrap;
-            font-size: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.3s ease;
-        }
-        .whatsapp-float:hover .wa-tooltip {
-            opacity: 1;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/whatsapp-flat.css">
+    <!--===== Project Kuula =====-->
+    <link rel="stylesheet" href="assets/css/project-kuula.css">
 </head>
 
 <body>
@@ -621,7 +578,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="testimonial1__thumb wow fadeInLeft" data-wow-delay=".3s">
-                        <img src="assets/images/testimonial/testi-thumb1_1.jpg" alt="thumb">
+                        <img src="assets/images/testimonial/testi-thumb1_1_vz.jpg" alt="thumb">
                     </div>
                 </div>
                 <div class="col-lg-8 wow fadeInRight" data-wow-delay=".3s">
@@ -688,15 +645,12 @@
                                 <p class="contact1-content-list-content__text">Consideramos en la calidad del trabajo cumpliendo con la garantia debida.</p>
                             </div>
                         </div>
-                        <div class="contact1-content__thumb wow fadeInUp" data-wow-delay=".7s">
-                            <img src="assets/images/contact/contact-thumb1_2.jpg" alt="thumb">
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="contact1-input">
                         <div class="contact1-input__thumb" data-mask-src="assets/images/contact/contact-thumb1_1.png">
-                            <img src="assets/images/contact/contact-thumb1_1.jpg" alt="thumb">
+                            <img src="assets/images/contact/contact-thumb1_vz.jpg" alt="thumb">
                         </div>
                         <div class="contact1-input__form wow fadeInUp" data-wow-delay=".3s">
                             <h4 class="contact1-input__form-title">Contactanos por WhatsApp</h4>
@@ -738,50 +692,164 @@
             </div>
             <div class="row gy-4">
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="project1-card">
-                        <div class="project1-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
-                            <img src="assets/images/project/project1_1.jpg" alt="thumb">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/hyc10?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es&iframe=1"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
                         </div>
-                        <div class="project1-card-content">
-                            <h6 class="project1-card-content__subtitle">// Repair</h6>
-                            <h4><a class="project1-card-content__title" href="project-details.html">Circuit Breaker
-                                    Panels</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="project1-card">
-                        <div class="project1-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
-                            <img src="assets/images/project/project1_4.jpg" alt="thumb">
-                        </div>
-                        <div class="project1-card-content">
-                            <h6 class="project1-card-content__subtitle">// Repair</h6>
-                            <h4><a class="project1-card-content__title" href="project-details.html">Circuit Breaker
-                                    Panels</a></h4>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/hyc10?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="project1-card">
-                        <div class="project1-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
-                            <img src="assets/images/project/project1_3.jpg" alt="thumb">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7HF4P?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
                         </div>
-                        <div class="project1-card-content">
-                            <h6 class="project1-card-content__subtitle">// Repair</h6>
-                            <h4><a class="project1-card-content__title" href="project-details.html">Circuit Breaker
-                                    Panels</a></h4>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7HF4P?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="project1-card">
-                        <div class="project1-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
-                            <img src="assets/images/project/project1_4.jpg" alt="thumb">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7HF4q?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
                         </div>
-                        <div class="project1-card-content">
-                            <h6 class="project1-card-content__subtitle">// Repair</h6>
-                            <h4><a class="project1-card-content__title" href="project-details.html">Circuit Breaker
-                                    Panels</a></h4>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7HF4q?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7HJMY?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
+                        </div>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7HJMY?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7HHcq?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
+                        </div>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7HHcq?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7HHcJ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
+                        </div>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7HHcJ?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7HHKw?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
+                        </div>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7HHKw?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7MGnq?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
+                        </div>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7MGnq?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="project-kuula-card">
+                        <div class="project-kuula-card__thumb wow img-custom-anim-left" data-wow-delay=".3s">
+                            <iframe
+                                    src="https://kuula.co/share/collection/7MP4c?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es"
+                                    width="100%"
+                                    height="100%"
+                                    frameborder="0"
+                                    allowfullscreen
+                                    allow="xr-spatial-tracking; gyroscope; accelerometer"
+                                    style="border:0; min-height: 320px;">
+                            </iframe>
+                        </div>
+                        <div class="project-kuula-card-content pt-1">
+                            <h4><a class="project-kuula-card-content__title" href="https://kuula.co/share/collection/7MP4c?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1&inst=es" target="_blank" rel="noopener">Ver proyecto 3D</a></h4>
                         </div>
                     </div>
                 </div>
@@ -964,123 +1032,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Blog Section S T A R T -->
-    <section class="blog1 fix slider-nav-area">
-        <div class="blog1-bg">
-            <div class="container">
-                <div class="row align-items-end mb-60">
-                    <div class="col-md-6">
-                        <div class="section-title wow fadeInUp" data-wow-delay=".3s">
-                            <h6 class="section-title__subtitle">Our Latest Blog</h6>
-                            <h2 class="section-title__title">Check Latest Blog Post from Blog Lists</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="swiper-arrow">
-                            <div class="swiper-nav swiper-next"><img class="svg-img"
-                                    src="assets/images/icon/white-arrow-left.svg" alt="arrow">
-                            </div>
-                            <div class="swiper-nav swiper-prev"><img class="svg-img"
-                                    src="assets/images/icon/white-arrow-right.svg" alt="arrow"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper blog1-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide ">
-                            <div class="blog1-card wow fadeInUp" data-wow-delay=".3s">
-                                <div class="blog1-card__thumb">
-                                    <div data-mask-src="assets/images/blog/blog-thumb1_1.png"> <img
-                                            class="blog1-card__image" src="assets/images/blog/blog-thumb1_1.jpg"
-                                            alt="thumb"></div>
-                                    <p class="blog1-card__thumb-date">15/12/2024</p>
-                                </div>
-                                <div class="blog1-card__content">
-                                    <div class="blog1-card__meta">
-                                        <p class="blog1-card__meta-text">By Admin</p>
-                                        <p class="blog1-card__meta-text">Electrical</p>
-                                    </div>
-                                    <h4 class="blog1-card__title">
-                                        <a class="blog1-card__title-link" href="blog-details.html">Elase they endures
-                                            pains
-                                            to avoid the worse pains taken</a>
-                                    </h4>
-                                </div>
-                                <p class="blog1-card__description">Nemo enim ipsam voluptatem quia aut odit aut fugit
-                                    sed
-                                    consequuntur magni</p>
-                                <div class="blog1-card__btn-wrapper">
-                                    <a class="blog1-card__btn" href="blog-details.html">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide ">
-                            <div class="blog1-card wow fadeInUp" data-wow-delay=".5s">
-                                <div class="blog1-card__thumb">
-                                    <div data-mask-src="assets/images/blog/blog-thumb1_2.png"><img
-                                            class="blog1-card__image" src="assets/images/blog/blog-thumb1_2.jpg"
-                                            alt="thumb"></div>
-                                    <p class="blog1-card__thumb-date">15/12/2024</p>
-                                </div>
-                                <div class="blog1-card__content">
-                                    <div class="blog1-card__meta">
-                                        <p class="blog1-card__meta-text">By Admin</p>
-                                        <p class="blog1-card__meta-text">Electrical</p>
-                                    </div>
-                                    <h4 class="blog1-card__title">
-                                        <a class="blog1-card__title-link" href="blog-details.html">Emergency electrical
-                                            repairs
-                                            what you need to do</a>
-                                    </h4>
-                                </div>
-                                <p class="blog1-card__description">Nemo enim ipsam voluptatem quia aut odit aut fugit
-                                    sed
-                                    consequuntur magni</p>
-                                <div class="blog1-card__btn-wrapper">
-                                    <a class="blog1-card__btn" href="blog-details.html">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide ">
-                            <div class="blog1-card wow fadeInUp" data-wow-delay=".7s">
-                                <div class="blog1-card__thumb">
-                                    <div data-mask-src="assets/images/blog/blog-thumb1_3.png"><img
-                                            class="blog1-card__image" src="assets/images/blog/blog-thumb1_3.jpg"
-                                            alt="thumb"></div>
-                                    <p class="blog1-card__thumb-date">15/12/2024</p>
-                                </div>
-                                <div class="blog1-card__content">
-                                    <div class="blog1-card__meta">
-                                        <p class="blog1-card__meta-text">By Admin</p>
-                                        <p class="blog1-card__meta-text">Electrical</p>
-                                    </div>
-                                    <h4 class="blog1-card__title">
-                                        <a class="blog1-card__title-link" href="blog-details.html">Essential electrical
-                                            upgrades
-                                            for every home</a>
-                                    </h4>
-                                </div>
-                                <p class="blog1-card__description">Nemo enim ipsam voluptatem quia aut odit aut fugit
-                                    sed
-                                    consequuntur magni</p>
-                                <div class="blog1-card__btn-wrapper">
-                                    <a class="blog1-card__btn" href="blog-details.html">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <!--===== Footer Section  S T A R T =====-->
     <section class="footer1 fix bg-img" style="background-image: url(assets/images/footer/footer-bg.png);">
