@@ -2803,7 +2803,7 @@ input:focus {
   padding: 0;
   padding-right: 10px;
 }
-.subscribe-thumb1 {
+. {
   position: absolute;
   top: 120px;
   left: 30px;
@@ -2826,7 +2826,9 @@ input:focus {
   }
 }
 .subscribe-thumb1 img {
-  max-width: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 .subscribe-thumb2 {
   position: absolute;
@@ -2851,7 +2853,9 @@ input:focus {
   }
 }
 .subscribe-thumb2 img {
-  max-width: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 .subscribe-thumb3 {
   position: absolute;
@@ -2865,7 +2869,9 @@ input:focus {
   }
 }
 .subscribe-thumb3 img {
-  max-width: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 .subscribe-thumb4 {
   position: absolute;
@@ -2878,7 +2884,9 @@ input:focus {
   }
 }
 .subscribe-thumb4 img {
-  max-width: 100%;
+   width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
 @media (max-width: 1700px) {
